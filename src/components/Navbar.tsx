@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { label: lang === 'en' ? 'Suites & Villas' : 'सुइट्स एवं विला', href: '#suites' },
     { label: lang === 'en' ? 'Fine Dining' : 'भोजन एवं रेस्तरां', href: '#dining' },
     { label: lang === 'en' ? 'Wellness Spa' : 'वेलनेस स्पा', href: '#spa' },
-    { label: lang === 'en' ? 'Experiences' : 'अनुभव', href: '#experiences' },
+    { label: lang === 'en' ? 'Gallery' : 'गैलरी', href: '#gallery' },
     { label: lang === 'en' ? 'Location' : 'स्थान व संपर्क', href: '#location' },
   ];
 

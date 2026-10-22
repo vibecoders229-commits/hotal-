@@ -12,6 +12,8 @@ import { RoomModal } from './components/RoomModal';
 import { DiningSection } from './components/DiningSection';
 import { SpaSection } from './components/SpaSection';
 import { ExperiencesSection } from './components/ExperiencesSection';
+import { GallerySection } from './components/GallerySection';
+import { PackagesSection } from './components/PackagesSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { LocationSection } from './components/LocationSection';
 import { ReservationModal } from './components/ReservationModal';
@@ -156,6 +158,23 @@ export default function App() {
           lang={lang}
           onInquireExperience={handleInquireExperience}
         />
+
+        {/* Curated Retreats & Seasonal Packages */}
+        <PackagesSection
+          lang={lang}
+          currency={currency}
+          onSelectPackage={(pkgName) => {
+            showToast(
+              lang === 'en'
+                ? `Package "${pkgName}" selected. Opening reservation.`
+                : `"${pkgName}" चुना गया। बुकिंग विंडो खुल रही है।`
+            );
+            handleOpenReservation();
+          }}
+        />
+
+        {/* Visual Splendor Gallery & Lightbox */}
+        <GallerySection lang={lang} />
 
         {/* Verified Guest Reviews & Forbes 5-Star Proof */}
         <ReviewsSection lang={lang} />

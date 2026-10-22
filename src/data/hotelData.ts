@@ -7,6 +7,8 @@ export const HOTEL_IMAGES = {
   suiteOcean: '/src/assets/images/room_luxury_suite_1792644564021.jpg',
   spa: '/src/assets/images/hotel_spa_wellness_1792644564341.jpg',
   dining: '/src/assets/images/hotel_fine_dining_1792644563916.jpg',
+  pool: '/src/assets/images/resort_infinity_pool_1792646613002.jpg',
+  beachDinner: '/src/assets/images/beach_romantic_dinner_1792646613054.jpg',
 };
 
 export const ROOMS_DATA: RoomSuite[] = [
