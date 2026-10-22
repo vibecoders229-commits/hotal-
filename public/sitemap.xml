@@ -1,39 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage Root -->
   <url>
     <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/?lang=hi" />
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/hero_luxury_hotel_1792644563650.jpg</image:loc>
+      <image:title>The Grand Azure Resort and Spa Sunset Oceanfront</image:title>
+      <image:caption>Five-star beachfront sanctuary overlooking sapphire waters</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/resort_infinity_pool_1792646613002.jpg</image:loc>
+      <image:title>Azure Horizon Infinity Pool</image:title>
+      <image:caption>Heated lagoon pool and submerged loungers overlooking the bay</image:caption>
+    </image:image>
   </url>
+
+  <!-- Suites and Accommodations -->
   <url>
     <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#suites</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/room_luxury_suite_1792644564021.jpg</image:loc>
+      <image:title>Royal Azure Oceanfront Suite</image:title>
+      <image:caption>Luxury master bedroom with panoramic balcony and private jacuzzi</image:caption>
+    </image:image>
   </url>
+
+  <!-- Michelin Fine Dining -->
   <url>
     <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#dining</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/hotel_fine_dining_1792644563916.jpg</image:loc>
+      <image:title>L'Aura Rooftop Fine Dining Restaurant</image:title>
+      <image:caption>Three-star Michelin gastronomy and vintage champagne terrace</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/beach_romantic_dinner_1792646613054.jpg</image:loc>
+      <image:title>Private Beachside Candlelight Dinner</image:title>
+      <image:caption>Torchlit dining setup directly on the white sand beach</image:caption>
+    </image:image>
   </url>
+
+  <!-- SOMA Ayurvedic Wellness Spa -->
   <url>
     <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#spa</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/src/assets/images/hotel_spa_wellness_1792644564341.jpg</image:loc>
+      <image:title>SOMA Ayurvedic Spa and Thermal Baths</image:title>
+      <image:caption>Holistic wellness retreat with natural travertine thermal reflection pool</image:caption>
+    </image:image>
   </url>
+
+  <!-- Curated Experiences -->
   <url>
     <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#experiences</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Photo Gallery -->
   <url>
-    <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#location</loc>
-    <lastmod>2026-10-22</lastmod>
+    <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#gallery</loc>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Location and Arrival -->
+  <url>
+    <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/#location</loc>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- HTML Visual Sitemap -->
+  <url>
+    <loc>https://ais-dev-dmsaiuq7lcswcp2r3nva6j-653463488022.asia-east1.run.app/sitemap.html</loc>
+    <lastmod>2026-10-22T05:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

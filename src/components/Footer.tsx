@@ -113,8 +113,16 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenReservation }) => {
             </span>
             <span aria-hidden="true">·</span>
             <span className="hover:text-stone-400 cursor-pointer">
-              {lang === 'en' ? 'Sustainability Charter' : 'पर्यावरण संकल्प'}
+              {lang === 'en' ? 'Sustainability' : 'पर्यावरण'}
             </span>
+            <span aria-hidden="true">·</span>
+            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-amber-200 transition-colors">
+              {lang === 'en' ? 'Sitemap.xml' : 'साइटमैप (XML)'}
+            </a>
+            <span aria-hidden="true">·</span>
+            <a href="/sitemap.html" target="_blank" rel="noopener noreferrer" className="hover:text-amber-200 transition-colors">
+              {lang === 'en' ? 'Directory' : 'निर्देशिका'}
+            </a>
           </div>
         </div>
       </div>
