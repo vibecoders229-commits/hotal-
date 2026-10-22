@@ -171,34 +171,40 @@ export default function App() {
       />
 
       {/* Room Details Modal */}
-      <RoomModal
-        room={selectedRoomDetails}
-        isOpen={Boolean(selectedRoomDetails)}
-        onClose={() => setSelectedRoomDetails(null)}
-        lang={lang}
-        currency={currency}
-        onBookRoom={(roomId) => handleOpenReservation(roomId)}
-      />
+      {selectedRoomDetails && (
+        <RoomModal
+          room={selectedRoomDetails}
+          isOpen={Boolean(selectedRoomDetails)}
+          onClose={() => setSelectedRoomDetails(null)}
+          lang={lang}
+          currency={currency}
+          onBookRoom={(roomId) => handleOpenReservation(roomId)}
+        />
+      )}
 
       {/* Full Interactive Reservation Modal & Voucher Generator */}
-      <ReservationModal
-        isOpen={isReservationOpen}
-        onClose={() => setIsReservationOpen(false)}
-        lang={lang}
-        currency={currency}
-        initialRoomId={reservationRoomId}
-        initialCheckIn={bookingParams.checkIn}
-        initialCheckOut={bookingParams.checkOut}
-        initialAdults={bookingParams.adults}
-        initialChildren={bookingParams.children}
-      />
+      {isReservationOpen && (
+        <ReservationModal
+          isOpen={isReservationOpen}
+          onClose={() => setIsReservationOpen(false)}
+          lang={lang}
+          currency={currency}
+          initialRoomId={reservationRoomId}
+          initialCheckIn={bookingParams.checkIn}
+          initialCheckOut={bookingParams.checkOut}
+          initialAdults={bookingParams.adults}
+          initialChildren={bookingParams.children}
+        />
+      )}
 
       {/* Fine Dining Table Reservation Modal */}
-      <TableReservationModal
-        isOpen={isTableBookingOpen}
-        onClose={() => setIsTableBookingOpen(false)}
-        lang={lang}
-      />
+      {isTableBookingOpen && (
+        <TableReservationModal
+          isOpen={isTableBookingOpen}
+          onClose={() => setIsTableBookingOpen(false)}
+          lang={lang}
+        />
+      )}
     </div>
   );
 }

@@ -26,8 +26,6 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({
   initialAdults = 2,
   initialChildren = 0,
 }) => {
-  if (!isOpen) return null;
-
   // Defaults
   const today = new Date();
   const tomorrow = new Date(today);
@@ -165,6 +163,8 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({
   const handlePrint = () => {
     window.print();
   };
+
+  if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto bg-black/85 backdrop-blur-md">

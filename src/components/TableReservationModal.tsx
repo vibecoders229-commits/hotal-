@@ -13,8 +13,6 @@ export const TableReservationModal: React.FC<TableReservationModalProps> = ({
   onClose,
   lang,
 }) => {
-  if (!isOpen) return null;
-
   const today = new Date().toISOString().split('T')[0];
 
   const [date, setDate] = useState(today);
@@ -30,6 +28,8 @@ export const TableReservationModal: React.FC<TableReservationModalProps> = ({
     e.preventDefault();
     setIsConfirmed(true);
   };
+
+  if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto bg-black/85 backdrop-blur-md">
